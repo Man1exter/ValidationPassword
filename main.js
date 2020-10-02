@@ -8,3 +8,13 @@ const special = /[!@#$%^&*]/;
 const minValue = 10;
 
 
+const check = () => {
+    if (input.value !== ''){
+       waitPassword()
+    } else {
+        p.style.color = '';
+    }
+};
+
+
+input.addEventListener("keyup", check)
