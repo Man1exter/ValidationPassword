@@ -1,9 +1,9 @@
-const input = document.querySelector("input");
+const inputy = document.querySelector("input");
 const p = document.querySelector(".miner");
 
 
 const letters = /[a-z]/i;
-const number = /[0-9]/;
+const numbers = /[0-9]/;
 const special = /[!@#$%^&*]/;
 const minValue = 10;
 
@@ -11,27 +11,33 @@ const minValue = 10;
 
 const waitPassword = () => {
 
-if (input.value.length > minValue && input.value.match(letters)&& input.value.match(numbers)&& input.value.match(special)) {
-input.style.color = "green";
-p.style.color = "green";
+if (inputy.value.length > minValue && inputy.value.match(letters) && inputy.value.match(numbers) && inputy.value.match(special)) {
 
-} else if (input.value.length > minValue && input.value.match(letters)&& input.value.match(numbers)) {
-    input.style.color = "orange";
+inputy.style.color = "green";
+p.style.color = "green";
+p.innerHTML = "WELL PASSWORD...";
+
+} else if (inputy.value.length > minValue && inputy.value.match(letters) && inputy.value.match(numbers)) {
+
+    inputy.style.color = "orange";
     p.style.color = "orange";
+    p.innerHTML = "MEDIUM PASSWORD...";
 
 } else {
-    input.style.color = "red";
+    inputy.style.color = "red";
     p.style.color = "red";
+    p.innerHTML = "WEAK PASSWORD...";
   }
 };
 
 const check = () => {
-    if (input.value !== ''){
+    if (inputy.value !== ''){
        waitPassword()
     } else {
         p.style.color = '';
+        p.innerHTML = "EMPTY PASSWORD...";
     }
 };
 
 
-input.addEventListener("keyup", check);
+inputy.addEventListener("keyup", check);
