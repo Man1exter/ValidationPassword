@@ -45,6 +45,35 @@ input{
 .miner{
     text-transform: uppercase;
     text-align: center;
-    line-height: 40px;
+    line-height: 35px;
     font-size: 20px;
+}
+.main{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(255, 238, 0);
+    line-height: 150px;
+}
+span{
+    color: blue;
+    transition: .3s linear;
+    cursor: pointer;
+}
+span:hover{
+    color: green;
+}
+ul{
+position: relative;
+top: 0;
+left: 50%;
+transform: translate(-22%,-50%);
+font-size: 30px;
+}
+li{
+    color: black;
+}
+.footer{
+    font-size: 33px;
+    text-align: center;
 }
