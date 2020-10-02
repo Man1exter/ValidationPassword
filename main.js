@@ -5,7 +5,7 @@ const p = document.querySelector(".miner");
 const letters = /[a-z]/i;
 const numbers = /[0-9]/;
 const special = /[!@#$%^&*]/;
-const minValue = 10;
+const minValue = 5;
 
 
 
