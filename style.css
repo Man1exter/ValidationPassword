@@ -3,5 +3,10 @@
     margin: 0;
 }
 body{
-    background:linear-gradient(to bottom left, green, navy);
+    background-color: gray;
+    color: white;
+}
+.intro{
+    background: linear-gradient(to bottom left, green, blue);
+    height: 100vh;
 }
