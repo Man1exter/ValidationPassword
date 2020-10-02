@@ -19,14 +19,15 @@ body{
     height: 600px;
     width: 800px;
     border: 5px solid rgb(255, 0, 0);
-    background: linear-gradient(to bottom left, rgb(43, 255, 0), blue);
+    background: linear-gradient(to bottom left, rgb(157, 255, 0), rgb(89, 0, 255));
     border-radius: 5px;
 }
 .name{
     text-align: center;
     line-height: 155px;
-    font-size: 70px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
+    text-transform: uppercase;
 }
 input{
     width: 350px;
@@ -40,4 +41,10 @@ input{
     font-size: 40px;
     border: 3px solid rgb(38, 0, 255);
     background-color: rgb(0, 255, 234);
+}
+.miner{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
 }
