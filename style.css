@@ -77,3 +77,7 @@ li{
     font-size: 33px;
     text-align: center;
 }
+footer{
+    background: linear-gradient(to bottom left, rgb(87, 8, 87), blue);
+    height: 100vh;
+}
