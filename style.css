@@ -124,7 +124,7 @@ footer{
     padding: 2px;
     margin-top: 50px;
     margin-left: 100px;
-    box-shadow: 5px 15px 43px 1px rgba(0,13,255,1);
+    box-shadow: 5px 15px 43px 1px rgb(0, 0, 0);
 }
 .button1:hover,
 .button2:hover,
