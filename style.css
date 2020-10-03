@@ -96,9 +96,9 @@ footer{
 .convert{
     width: 350px;
     height: 45px;
-    position: relative;
-    top: 30%;
-    left: 50%;
+    position: absolute;
+    top: 37%;
+    left: 51%;
     transform: translate(-50%, 10%);
     cursor: pointer;
     border-radius: 5px;
@@ -110,4 +110,32 @@ footer{
 .convert:hover{
     border: 3px solid yellow;
     background-color: rgb(0, 102, 255);
+}
+
+.button1,
+.button2,
+.button3{
+    font-size: 32px;
+    cursor: pointer;
+    transition: .3s linear;
+    border: 3px solid black;
+    background-color: yellow;
+    border-radius: 7px;
+    padding: 2px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover{
+    border: 3px solid yellow;
+    background-color: black;
+    color: white;
+}
+.shift{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 3px solid red;
+    background: linear-gradient(to bottom left, rgb(160, 10, 92),rgb(179, 255, 0));
+    color: black;
 }
