@@ -122,8 +122,9 @@ footer{
     background-color: yellow;
     border-radius: 7px;
     padding: 2px;
-    margin-top: 250px;
+    margin-top: 50px;
     margin-left: 100px;
+    box-shadow: 5px 15px 43px 1px rgba(0,13,255,1);
 }
 .button1:hover,
 .button2:hover,
@@ -131,6 +132,7 @@ footer{
     border: 3px solid yellow;
     background-color: black;
     color: white;
+    box-shadow: 10px 15px 43px 1px rgb(0, 183, 255);
 }
 .shift{
     font-size: 60px;
@@ -138,4 +140,8 @@ footer{
     border-bottom: 3px solid red;
     background: linear-gradient(to bottom left, rgb(160, 10, 92),rgb(179, 255, 0));
     color: black;
+}
+h1{
+    text-align: center;
+    line-height: 200px;
 }
