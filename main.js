@@ -58,8 +58,14 @@ const swap = () => {
         ch1.innerText = "°C ";
       }
     };
+    const fahrcel = () => {
+    fahrenheit = inputMain.value * 1.8 + 32;
+    };
+    const celfahr = () => {
+    celsius = (inputMain.value - 32) / 1.8;
+    };
 
-buttonConvert.addEventListener("click", ciri)
+buttonConvert.addEventListener("click", fahrcel)
 inputy.addEventListener("keyup", check);
 buttonConvert.addEventListener("click", swap);
 /////////////////////////////////////////////////
