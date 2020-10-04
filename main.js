@@ -10,8 +10,8 @@ const mick = document.querySelector(".mick");
 const fh1 = document.querySelector(".f");
 const ch1 = document.querySelector(".c");
 
-
-
+let fahrenheit;
+let celsius;
 
 const letters = /[a-z]/i;
 const numbers = /[0-9]/;
