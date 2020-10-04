@@ -125,6 +125,7 @@ footer{
     margin-top: 50px;
     margin-left: 100px;
     box-shadow: 5px 15px 43px 1px rgb(0, 0, 0);
+    margin-bottom: 10px;
 }
 .button1:hover,
 .button2:hover,
@@ -152,4 +153,14 @@ h1{
 }
 .down{
     border-top: 2px solid red;
+    font-size: 60px;
+    text-align: center;
+    background: linear-gradient(to bottom left, rgb(119, 0, 255),rgb(21, 255, 0));
+    color: black;
+    transition: .3s linear;
+    line-height: 170px;
+    transition: .3s linear;
+}
+.down:hover{
+    background: linear-gradient(to bottom left, rgb(0, 17, 255),rgb(238, 255, 0));
 }
