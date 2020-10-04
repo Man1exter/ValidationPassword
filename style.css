@@ -78,7 +78,7 @@ li{
     text-align: center;
 }
 footer{
-    background: linear-gradient(to bottom left, rgb(87, 8, 87), blue);
+    background: linear-gradient(to right, rgb(6, 122, 255), rgb(3, 102, 20));
     height: 100vh;
 }
 .square{

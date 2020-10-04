@@ -59,6 +59,7 @@ const swap = () => {
       }
     };
 
+buttonConvert.addEventListener("click", ciri)
 inputy.addEventListener("keyup", check);
 buttonConvert.addEventListener("click", swap);
 /////////////////////////////////////////////////
