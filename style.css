@@ -153,12 +153,12 @@ h1{
 }
 .down{
     border-top: 2px solid red;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     background: linear-gradient(to bottom left, rgb(119, 0, 255),rgb(21, 255, 0));
     color: black;
     transition: .3s linear;
-    line-height: 170px;
+    line-height: 122px;
     transition: .3s linear;
 }
 .down:hover{
