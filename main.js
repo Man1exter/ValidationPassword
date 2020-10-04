@@ -51,25 +51,27 @@ const check = () => {
 };
 const swap = () => {
     if(fh1.innerText === "°F"){ //równy
-        fh1.innerText = "°C ";
-        ch1.innerText = "°F ";
+        fh1.innerText = " °C ";
+        ch1.innerText = " °F ";
     } else {
-        fh1.innerText = "°F ";
+        fh1.innerText = " °F ";
         ch1.innerText = "°C ";
       }
     };
-    const celfahr = () => {
+    const cel = () => {
     fahrenheit = inputMain.value * 1.8 + 32;
-    sums.innerText = `${inputMain.value}°C = ${fahrenheit}°F`;
+    result.innerText = `${inputMain.value}°C = ${fahrenheit.toFixed((1))}°F`;
+    inputMain.value = '';
     };
-    const fahrcel = () => {
+    const fah = () => {
     celsius = (inputMain.value - 32) / 1.8;
-     sums.innerText = `${inputMain.value}°F = ${celsius}°C`;
+     result.innerText = `${inputMain.value}°F = ${celsius.toFixed((1))}°C`;
+     inputMain.value = '';
     };
 
-buttonConvert.addEventListener("click", celfahr)
+buttonConvert.addEventListener("click", cel)
 inputy.addEventListener("keyup", check);
-buttonConvert.addEventListener("click", swap);
+buttonChange.addEventListener("click", swap);
 /////////////////////////////////////////////////
 
 
