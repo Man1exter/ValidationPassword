@@ -19,6 +19,7 @@ const minValue = 5;
 
 
 
+    
 const waitPassword = () => {
 
 if (inputy.value.length > minValue && inputy.value.match(letters) && inputy.value.match(numbers) && inputy.value.match(special)) {
@@ -49,14 +50,14 @@ const check = () => {
     }
 };
 const swap = () => {
-if(fh1.innerText === " °F "){ //równy
-    fh1.innerText = " °C ";
-    ch1.innerText = " °F ";
-} else {
-    fh1.innerText = " °F ";
-    ch1.innerText = " °C ";
-  }
-};
+    if(fh1.innerText === "°F"){ //równy
+        fh1.innerText = "°C ";
+        ch1.innerText = "°F ";
+    } else {
+        fh1.innerText = "°F ";
+        ch1.innerText = "°C ";
+      }
+    };
 
 inputy.addEventListener("keyup", check);
 buttonConvert.addEventListener("click", swap);
