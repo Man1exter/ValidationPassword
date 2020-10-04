@@ -164,3 +164,9 @@ h1{
 .down:hover{
     background: linear-gradient(to bottom left, rgb(0, 17, 255),rgb(238, 255, 0));
 }
+.sums{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+}
