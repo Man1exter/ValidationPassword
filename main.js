@@ -52,12 +52,12 @@ const check = () => {
 };
 const swap = () => {
     if(fh1.innerText === "°F"){ //równy
-        fh1.innerText = "°C ";
-        ch1.innerText = "°F ";
+        fh1.innerText = "°C";
+        ch1.innerText = "°F";
         result.innerText ='';
     } else {
-        fh1.innerText = "°F ";
-        ch1.innerText = "°C ";
+        fh1.innerText = "°F";
+        ch1.innerText = "°C";
         result.innerText ='';
       }
     };

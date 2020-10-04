@@ -79,12 +79,12 @@ li{
 }
 footer{
     background: linear-gradient(to right, rgb(6, 122, 255), rgb(3, 102, 20));
-    height: 100vh;
+    height: 130vh;
 }
 .square{
     z-index: 5;
     position: absolute;
-    top: 150%;
+    top: 170%;
     left: 150%;
     transform: translate(-285%, -50%);
     height: 600px;
@@ -158,7 +158,7 @@ h1{
     background: linear-gradient(to bottom left, rgb(119, 0, 255),rgb(21, 255, 0));
     color: black;
     transition: .3s linear;
-    line-height: 122px;
+    line-height: 120px;
     transition: .3s linear;
 }
 .down:hover{
