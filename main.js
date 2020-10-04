@@ -2,6 +2,14 @@ const inputy = document.querySelector("input");
 const p = document.querySelector(".miner");
 
 
+const buttonReset = document.querySelector(".button2");
+const buttonChange = document.querySelector(".button1");
+const buttonConvert = document.querySelector(".button3");
+
+
+
+
+
 const letters = /[a-z]/i;
 const numbers = /[0-9]/;
 const special = /[!@#$%^&*]/;
@@ -42,3 +50,27 @@ const check = () => {
 
 inputy.addEventListener("keyup", check);
 /////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
