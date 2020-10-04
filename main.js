@@ -48,9 +48,18 @@ const check = () => {
         p.innerHTML = "EMPTY PASSWORD...";
     }
 };
-
+const swap = () => {
+if(fh1.innerText === " °F "){ //równy
+    fh1.innerText = " °C ";
+    ch1.innerText = " °F ";
+} else {
+    fh1.innerText = " °F ";
+    ch1.innerText = " °C ";
+  }
+};
 
 inputy.addEventListener("keyup", check);
+buttonConvert.addEventListener("click", swap);
 /////////////////////////////////////////////////
 
 
