@@ -5,6 +5,8 @@ const inputMain = document.querySelector(".convert");
 const buttonReset = document.querySelector(".button2");
 const buttonChange = document.querySelector(".button1");
 const buttonConvert = document.querySelector(".button3");
+const lick = document.querySelector(".lick");
+const mick = document.querySelector(".mick");
 const fh1 = document.querySelector(".f");
 const ch1 = document.querySelector(".c");
 
