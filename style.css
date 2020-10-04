@@ -170,3 +170,12 @@ h1{
     color: black;
     text-transform: uppercase;
 }
+h3{
+    position: absolute;
+    font-size: 50px;
+    top: 179%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    color: blueviolet;
+}
