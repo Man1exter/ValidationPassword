@@ -9,6 +9,7 @@ const result = document.querySelector(".sums");
 const fh1 = document.querySelector(".f");
 const ch1 = document.querySelector(".c");
 
+
 let fahrenheit;
 let celsius;
 
@@ -53,9 +54,11 @@ const swap = () => {
     if(fh1.innerText === "°F"){ //równy
         fh1.innerText = "°C ";
         ch1.innerText = "°F ";
+        result.innerText ='';
     } else {
         fh1.innerText = "°F ";
         ch1.innerText = "°C ";
+        result.innerText ='';
       }
     };
     const cel = () => {
@@ -79,10 +82,15 @@ fah()
 result.innerText = "YOU MUST WRITE A NUMBER!"
         }
     }
+    const resets = () => {
+        inputMain.value = '';
+        result.innerText = '';
+    }
 
 buttonChange.addEventListener("click", mustNeed)
 inputy.addEventListener("keyup", check);
 buttonConvert.addEventListener("click", swap);
+buttonReset.addEventListener("click",resets)
 /////////////////////////////////////////////////
 
 
