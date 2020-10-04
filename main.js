@@ -51,27 +51,38 @@ const check = () => {
 };
 const swap = () => {
     if(fh1.innerText === "°F"){ //równy
-        fh1.innerText = " °C ";
-        ch1.innerText = " °F ";
+        fh1.innerText = "°C ";
+        ch1.innerText = "°F ";
     } else {
-        fh1.innerText = " °F ";
+        fh1.innerText = "°F ";
         ch1.innerText = "°C ";
       }
     };
     const cel = () => {
     fahrenheit = inputMain.value * 1.8 + 32;
-    result.innerText = `${inputMain.value}°C = ${fahrenheit.toFixed((1))}°F`;
+    result.innerText = `${inputMain.value}°C = ${fahrenheit.toFixed(1)}°F`;
     inputMain.value = '';
     };
     const fah = () => {
     celsius = (inputMain.value - 32) / 1.8;
-     result.innerText = `${inputMain.value}°F = ${celsius.toFixed((1))}°C`;
+     result.innerText = `${inputMain.value}°F = ${celsius.toFixed(1)}°C`;
      inputMain.value = '';
     };
+    const mustNeed = () => {
+        if(inputMain.value !== ''){
+          if(ch1.innerText === '°C'){
+cel()
+          }else{
+fah()
+          }
+        }else {
+result.innerText = "YOU MUST WRITE A NUMBER!"
+        }
+    }
 
-buttonConvert.addEventListener("click", cel)
+buttonChange.addEventListener("click", mustNeed)
 inputy.addEventListener("keyup", check);
-buttonChange.addEventListener("click", swap);
+buttonConvert.addEventListener("click", swap);
 /////////////////////////////////////////////////
 
 
