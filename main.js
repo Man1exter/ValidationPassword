@@ -58,14 +58,16 @@ const swap = () => {
         ch1.innerText = "°C ";
       }
     };
-    const fahrcel = () => {
-    fahrenheit = inputMain.value * 1.8 + 32;
-    };
     const celfahr = () => {
+    fahrenheit = inputMain.value * 1.8 + 32;
+    sums.innerText = `${inputMain.value}°C = ${fahrenheit}°F`;
+    };
+    const fahrcel = () => {
     celsius = (inputMain.value - 32) / 1.8;
+     sums.innerText = `${inputMain.value}°F = ${celsius}°C`;
     };
 
-buttonConvert.addEventListener("click", fahrcel)
+buttonConvert.addEventListener("click", celfahr)
 inputy.addEventListener("keyup", check);
 buttonConvert.addEventListener("click", swap);
 /////////////////////////////////////////////////
