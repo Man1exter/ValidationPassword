@@ -1,11 +1,12 @@
 const inputy = document.querySelector("input");
 const p = document.querySelector(".miner");
 
-
+const inputMain = document.querySelector(".convert");
 const buttonReset = document.querySelector(".button2");
 const buttonChange = document.querySelector(".button1");
 const buttonConvert = document.querySelector(".button3");
-
+const fh1 = document.querySelector(".f");
+const ch1 = document.querySelector(".c");
 
 
 
